@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Антон Даниленко</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Завод игристых вин</h1>
+<img src="images/Wine.png" width = 400 height = 200 class = "logo"></img>
+<p class = "text-all">Добро пожаловать, клиент!!!</p>
+<p class = "text-all">Адрес фирмы: Могилевская обл., Костюковичский р-н, аг.Селецкое, д.14, кв.2</p>
+<a href="page2.html" class = "text-all">Реклама товаров <br></a>
+<a href="page3.html" class = "text-all">Услуги\товары</a>
+<script>
+ let surename = prompt("Введите фамилию"," ");
+ let name = prompt("Введите имя"," ");
+ let fname = prompt("Введите отчество"," ");
+ let result = confirm(surename +" "+ name+" " + fname + " - это вы?");
+    if (result) {
+      alert("Молодец," + surename+" " + name+ " " + fname );
+    } else {
+      alert("Error");
+    }
+
+</script>
+</body>
+</html>
